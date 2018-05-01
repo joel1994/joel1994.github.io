@@ -1,4 +1,4 @@
 <strong>HIM</strong></br>
-www.him.cm
+https://him.cm
 
 Thanks：GitHub Pages.
