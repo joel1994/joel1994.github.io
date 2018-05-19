@@ -1,7 +1,7 @@
 <?php
-    $str=file_get_contents('http://cn.bing.com/HPImageArchive.aspx?idx=0&n=1');
+    $str=file_get_contents('https://www.bing.com/HPImageArchive.aspx?idx=0&n=1&mkt=zh-CN');
     if(preg_match("/<urlBase>(.+?)<\/urlBase>/ies",$str,$matches)){
-        $imgurl='http://cn.bing.com'.$matches[1].'_1920x1080.jpg';
+        $imgurl='https://www.bing.com'.$matches[1].'_1920x1080.jpg';
     }
     if($imgurl){
         header('Content-Type: image/JPEG');
