@@ -180,7 +180,7 @@
 		<div class="layui-container">
 			<div class="layui-row">
 				<div class="layui-col-lg12">
-					Copyright &copy; 2018 Powered by <a href="https://ip.awk.sh/" target = "_blank">IPinfo.</a> | Author <a href = "https://www.xiaoz.me/" target = "_blank">xiaoz.me</a>
+					Copyright &copy; 2018 Powered by HIM | Code by xiaoz</a>
 				</div>
 			</div>
 		</div>
