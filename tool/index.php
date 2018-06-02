@@ -190,7 +190,7 @@
 	<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 	<script src="./layui/layui.js"></script>
 	<script src = "./static/embed.js?v=1.5"></script>
-	<!-- statistics -->
+	<!--statistics-->
    <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
