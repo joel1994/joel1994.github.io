@@ -24,8 +24,9 @@
 					<div class = "layui-hide-xs themenu">
 						<ul class="layui-nav" lay-filter="">
 						  <li class="layui-nav-item layui-this"><a href="./"><i class="layui-icon">&#xe68e;</i> 首页</a></li>
-						  <li class="layui-nav-item"><a href="./bing" rel = "nofollow" target = "_blank"><i class="layui-icon">&#xe634;</i> 必应壁纸</a></li>
-						  <li class="layui-nav-item"><a href="api.php" rel = "nofollow" target = "_blank"><i class="layui-icon">&#xe857;</i> API</a></li>
+						  <li class="layui-nav-item"><a href="./whois" rel = "nofollow" target = "_blank"><i class="layui-icon">&#xe715;</i> Whois查询</a></li>
+						  <li class="layui-nav-item"><a href="./bing" rel = "nofollow" target = "_blank"><i class="layui-icon">&#xe609;</i> 必应壁纸</a></li>
+						  <li class="layui-nav-item"><a href="api.php" rel = "nofollow" target = "_blank"><i class="layui-icon">&#xe857;</i> IP api</a></li>
 						  <li class="layui-nav-item"><a href="javascript:;" onclick = "about();"><i class="layui-icon">&#xe60b;</i> 关于</a></li>
 						</ul>
 					</div>
