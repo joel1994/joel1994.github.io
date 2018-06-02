@@ -1,0 +1,55 @@
+.menu{
+	background-color:#393D49;
+}
+.footer{
+	background-color: #2F4056;
+	position:fixed;
+	bottom:0;
+	padding:10px;
+	color:#DFDFDF;
+	width:100%;
+}
+.footer a{
+	color:#DFDFDF;
+}
+.content{
+	margin-top:40px;
+	
+}
+#ipinfo{
+	display: none;
+	box-shadow: 1px 1px 1px 1px #888888;
+	margin-top:40px;
+}
+#allinfo{
+	display: none;
+	margin-top:40px;
+}
+#myip{
+	/*text-align:center;*/
+	margin-top:80px;
+}
+#myip h3{
+	margin-top:10px;
+}
+#myip code{
+	background-color:#F0F0F0;
+	color:#C13;
+}
+.logo{
+	float:left;
+	margin-top:5px;
+}
+.logo img{
+	width:150px;
+	height:49px;
+}
+.themenu{
+	float:left;
+}
+.right{
+	float:right;
+}
+#loading{
+	display: none;
+}
