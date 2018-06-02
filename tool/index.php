@@ -20,7 +20,7 @@
 		<div class="layui-container">
 			<div class="layui-row">
 				<div class="layui-col-lg12">
-					<div class="logo"><a href="./" title = "HIM.CM 提供的工具合集"><img src="../logo.jpg" alt=""></a></div>
+					<div class="logo"><a href="./" title = "HIM.CM 提供的工具合集"><img src="/logo.jpg" alt=""></a></div>
 					<div class = "layui-hide-xs themenu">
 						<ul class="layui-nav" lay-filter="">
 						  <li class="layui-nav-item layui-this"><a href="./"><i class="layui-icon">&#xe68e;</i> 首页</a></li>
