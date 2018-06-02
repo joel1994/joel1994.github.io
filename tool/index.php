@@ -11,7 +11,6 @@
 	<meta name="keywords" content="ip查询网,本地ip查询,本机ip查询,ip查询" />
 	<meta name="description" content="HIM.CM 提供的工具合集" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon" />
 	<link rel="stylesheet" href="./layui/css/layui.css">
 	<link rel="stylesheet" href="./static/style.css?v=1.1">
 </head>
