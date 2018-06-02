@@ -19,7 +19,7 @@
         localStorage[87] = 'https://www.weibo.com'
         localStorage[72] = 'http://www.hostloc.com'
         localStorage[84] = 'http://tool.chinaz.com/'
-        localStorage[73] = 'https://www.ipip.net/'
+        localStorage[73] = 'https://www.ipip.net/ip.html'
     }
 
     for (var i in $keys) {
