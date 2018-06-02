@@ -6,16 +6,14 @@
 <html lang="zh-cmn-Hans" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8" />
-	<title>整合多接口的IP地址查询工具 - IPInfo</title>
+	<title>Tools | HIM</title>
 	<meta name="generator" content="EverEdit" />
-	<meta name="author" content="xiaoz.me" />
-	<meta name="keywords" content="geoip,ip查询网,本地ip查询,本机ip查询,ip查询" />
-	<meta name="description" content="IPInfo是一个开源的IP查询工具，支持IPIP.NET，新浪，淘宝，GeoIP等多种查询结果。" />
+	<meta name="keywords" content="ip查询网,本地ip查询,本机ip查询,ip查询" />
+	<meta name="description" content="HIM.CM 提供的工具合集" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="favicon.ico"  type="image/x-icon" />
 	<link rel="stylesheet" href="./layui/css/layui.css">
 	<link rel="stylesheet" href="./static/style.css?v=1.1">
-	<script src = "./static/tongji.js"></script>
 </head>
 <body>
 	<!--导航菜单-->
