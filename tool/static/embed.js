@@ -112,7 +112,7 @@ function mobile(){
 	var host = window.location.host;
 	var pathname = window.location.pathname;
 	var url = protocol + '//' + host + pathname;
-	var qrcode = "https://pan.baidu.com/share/qrcode?w=200&h=200&url=" + url;
+	var qrcode = "https://www.kuaizhan.com/common/encode-png?large=true&data=" + url;
 	var qrimg = "<center><img src = '" + qrcode + "' /></center>";
 	layer.open({
 		type: 1,
