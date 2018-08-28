@@ -1,6 +1,11 @@
 <?php
-$domain = $_GET['domain'];
+$domain = _get('domain');
 $whoisservers = json_decode(file_get_contents('./whois-list.json'), true);
+
+function _get($domain){
+    $val = !empty($_GET[$domain]) ? $_GET[$domain] : null;
+    return $val;
+}
 
 function LookupDomain($domain){
 	global $whoisservers;
