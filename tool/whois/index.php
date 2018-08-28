@@ -25,7 +25,7 @@ function LookupDomain($domain){
 	}
 
 	preg_match("/Whois Server: (.*)/", $result, $matches);
-	$secondary = $matches[1];
+	@$secondary = $matches[1];
 	if($secondary) {
 		$result = QueryWhoisServer($secondary, $domain);
 	}
