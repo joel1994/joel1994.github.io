@@ -131,7 +131,7 @@ function about(){
 	  	type: 2, 
 	  	title:'二维码生成',
 	  	area: ['800px', '600px'],
-	  	content: './static/qrcreat.html' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
+	  	content: './static/about.html' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
 	}); 
 }
 //获取内网ip
