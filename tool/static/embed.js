@@ -134,6 +134,14 @@ function qrcreat(){
 	  	content: './static/qrcreat.html' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
 	}); 
 }
+function ipapi(){
+	layer.open({
+	  	type: 2, 
+	  	title:'IP api',
+	  	area: ['800px', '600px'],
+	  	content: './static/ipapi.html' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
+	}); 
+}
 //获取内网ip
 function getIPs(callback){
     var ip_dups = {};
