@@ -1,103 +1,119 @@
+<h2>
+	IPinfo 提供的IP查询接口
+</h2>
+<hr />
 <p>
-	<span style="font-size:18px;color:#4C33E5;"><strong>请求URL:</strong></span> 
-</p>
-<span style="font-size:16px;">https://him.cm/tool/api.php</span> 
-<p>
-	<br />
-</p>
-<p>
-	<span style="font-size:18px;color:#4C33E5;"><strong>请求方式：</strong></span><br />
-<span style="font-size:16px;">GET</span> 
+	<b>请求URL</b>：https://him.cm/tool/api.php
 </p>
 <p>
-	<br />
+	<b>请求方式</b>：GET
 </p>
 <p>
-	<span style="font-size:18px;color:#4C33E5;"><strong>请求参数:</strong></span> 
+	<b>请求参数</b><span>：</span> 
 </p>
 <p>
+	<span> 
 	<table style="font-size:15px;width:770px;color:#34495E;font-family:&quot;background-color:#FFFFFF;">
 		<tbody>
 			<tr>
 				<th style="border:1px solid #DDDDDD;text-align:left;">
-					<span style="font-size:16px;">参数名</span> 
+					参数名
 				</th>
 				<th style="border:1px solid #DDDDDD;text-align:left;">
-					<span style="font-size:16px;">是否必须</span> 
+					是否必须
 				</th>
 				<th style="border:1px solid #DDDDDD;text-align:left;">
-					<span style="font-size:16px;">类型</span> 
+					类型
 				</th>
 				<th style="border:1px solid #DDDDDD;">
-					<span style="font-size:16px;">说明</span> 
+					说明
 				</th>
 			</tr>
 		</tbody>
 		<tbody>
 			<tr>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">ip</span> 
+					ip
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">否</span> 
+					否
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">string</span> 
+					string
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">默认返回访客自身IP，否则返回指定IP</span> 
-				</td>
-			</tr>
-			<tr>
-				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">data</span> 
-				</td>
-				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">否</span> 
-				</td>
-				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">string</span> 
-				</td>
-				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">ip:仅返回IP;addr:仅返回地址; 默认返回ip + 地址</span> 
+					默认返回访客自身IP，否则返回指定IP
 				</td>
 			</tr>
 			<tr>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">type</span> 
+					data
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">否</span> 
+					否
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">string</span> 
+					string
 				</td>
 				<td style="border:1px solid #DDDDDD;">
-					<span style="font-size:14px;">默认返回文本格式; json：返回json格式</span> 
+					ip:仅返回IP;addr:仅返回地址; 默认返回ip + 地址
+				</td>
+			</tr>
+			<tr>
+				<td style="border:1px solid #DDDDDD;">
+					type
+				</td>
+				<td style="border:1px solid #DDDDDD;">
+					否
+				</td>
+				<td style="border:1px solid #DDDDDD;">
+					string
+				</td>
+				<td style="border:1px solid #DDDDDD;">
+					默认返回文本格式; json：返回json格式
 				</td>
 			</tr>
 		</tbody>
 	</table>
+<br />
+</span> 
+</p>
+<hr />
+<p>
+	<b>返回示例</b>：
 </p>
 <p>
-	<span style="font-size:18px;"><strong><br />
-</strong></span> 
+	<span style="background-color:#CCCCCC;">api.php?ip=180.97.33.108&amp;type=json 返回</span> 
 </p>
 <p>
-	<span style="font-size:18px;color:#4C33E5;"><strong>返回示例:</strong></span>
+	{<br />
+&nbsp; &nbsp; "status": 1,<br />
+&nbsp; &nbsp; "ip": "180.97.33.108",<br />
+&nbsp; &nbsp; "addr": "江苏省南京市 北京百度网讯科技有限公司电信节点"<br />
+}
 </p>
-<p style="font-size:15px;color:#34495E;font-family:&quot;background-color:#FFFFFF;">
-	<strong>api.php?ip=180.97.33.108&amp;type=json返回</strong> 
-</p>
-<pre><span class="token punctuation">{</span> <span class="token property" style="color:#C08B30;">"status"</span><span class="token operator">:</span> <span class="token number" style="color:#C76B29;">1</span><span class="token punctuation">,</span> <span class="token property" style="color:#C08B30;">"ip"</span><span class="token operator">:</span> <span class="token string" style="color:var(--theme-color,#42b983);">"180.97.33.108"</span><span class="token punctuation">,</span> <span class="token property" style="color:#C08B30;">"addr"</span><span class="token operator">:</span> <span class="token string" style="color:var(--theme-color,#42b983);">"江苏省南京市 北京百度网讯科技有限公司电信节点"</span> <span class="token punctuation">}</span></pre>
-<p style="font-size:15px;color:#34495E;font-family:&quot;background-color:#FFFFFF;">
-	<strong>api.php?ip=180.97.33.108&amp;type=text返回</strong> 
-</p>
-<pre>180.97.33.108 江苏省南京市 北京百度网讯科技有限公司电信节点</pre>
 <p>
 	<br />
 </p>
-<p style="font-size:15px;color:#34495E;font-family:&quot;background-color:#FFFFFF;">
-	<span style="color:#2C3E50;font-weight:600;"><span style="font-size:16px;">错误的示例</span>&nbsp;</span>https://him.cm/tool/api.php?ip=errip返回
+<p>
+	<span style="background-color:#CCCCCC;">api.php?ip=180.97.33.108&amp;type=text 返回</span><span style="background-color:#CCCCCC;"></span> 
 </p>
-<pre><span class="token punctuation">{</span><span class="token property" style="color:#C08B30;">"status"</span><span class="token operator">:</span><span class="token number" style="color:#C76B29;">0</span><span class="token punctuation">,</span><span class="token property" style="color:#C08B30;">"msg"</span><span class="token operator">:</span><span class="token string" style="color:var(--theme-color,#42b983);">"IP\u683c\u5f0f\u4e0d\u5bf9"</span><span class="token punctuation">}</span></pre>
+<p>
+	180.97.33.108 江苏省南京市 北京百度网讯科技有限公司电信节点
+</p>
+<p>
+	<br />
+</p>
+<hr />
+<p>
+	<b>错误的示例</b>：
+</p>
+<p>
+	<span style="background-color:#CCCCCC;">https://him.cm/tool/api.php?ip=errip 返回</span><span style="background-color:#CCCCCC;"></span>
+</p>
+<p>
+	{"status":0,"msg":"IP\u683c\u5f0f\u4e0d\u5bf9"}
+</p>
+<p>
+	<br />
+</p>
