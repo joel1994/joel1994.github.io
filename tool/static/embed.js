@@ -126,14 +126,6 @@ function api(){
 	  ,content: 'API正在开发中...敬请期待。'
 	});  
 }
-function about(){
-	layer.open({
-	  	type: 2, 
-	  	title:'关于',
-	  	area: ['800px', '600px'],
-	  	content: './static/about.html' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
-	}); 
-}
 function qrcreat(){
 	layer.open({
 	  	type: 2, 
