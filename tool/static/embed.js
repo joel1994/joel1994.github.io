@@ -126,7 +126,7 @@ function api(){
 	  ,content: 'API正在开发中...敬请期待。'
 	});  
 }
-function qrcreat(){
+function about(){
 	layer.open({
 	  	type: 2, 
 	  	title:'二维码生成',
