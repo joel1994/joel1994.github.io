@@ -112,7 +112,7 @@ function mobile(){
 	var host = window.location.host;
 	var pathname = window.location.pathname;
 	var url = protocol + '//' + host + pathname;
-	var qrcode = "https://him.cm/tool/qrcreat/?text=" + url;
+	var qrcode = "https://him.cm/tool/qrcreat/?size=200&text=" + url;
 	var qrimg = "<center><img src = '" + qrcode + "' /></center>";
 	layer.open({
 		type: 1,
